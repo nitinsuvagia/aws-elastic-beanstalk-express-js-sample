@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const port = 8080;
 
-app.get('/', (req, res) => res.send('Hello Team, CI/CD Pipeline setup successfully by NITIN'));
+app.get('/', (req, res) => res.send('Hello Team, CI/CD Pipeline setup successfully by NITIN and HARDIK'));
 
 app.listen(port);
 console.log(`App running on http://localhost:${port}`);
